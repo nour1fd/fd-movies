@@ -3,10 +3,12 @@ import 'package:conditional_builder_null_safety/conditional_builder_null_safety.
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:movies/business/movie/viewmovie_cubit.dart';
+import 'package:movies/const.dart';
 import 'package:movies/model/movie/moviemodel.dart';
 import 'package:movies/model/movie/moviemodel.dart';
 import 'package:movies/model/movie/moviemodel.dart';
 import 'package:movies/model/movie/moviemodel.dart';
+import 'package:movies/view/insideapp/userinfo.dart';
 
 import '../../model/movie/moviemodel.dart';
 var  Result=[];
@@ -52,6 +54,19 @@ class _HomeScreenState extends State<HomeScreen> {
               icon: Icon(Icons.menu),
               itemBuilder: (context) {
                 return [
+                  PopupMenuItem(
+                    value: name,
+                    child: TextButton(onPressed: () {
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => UserInfo(),));
+                    }, child: Text(
+                      name,
+                      style: TextStyle(
+                          color: Colors.black54,
+                          fontSize: 13,
+                          fontWeight: FontWeight.w500),))
+
+                    ),
+
                   PopupMenuItem(
                     value: 'Home',
                     child: Text(
