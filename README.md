@@ -1,16 +1,5 @@
 # movies
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The application aims to provide a platform that showcases a collection of films, including upcoming releases and those already released. Users can explore a variety of movies, view their posters, titles, and relevant details. Additionally, the application offers a search functionality that enables users to easily find information about specific movies.
+To access the application's features, users are required to create an account by providing their personal information.
+In addition to the existing features, future enhancements could include the ability to modify user information, allowing users to update their account details as needed. Furthermore, the application can be expanded to provide comprehensive and in-depth information about each film, creating an extensive electronic library that encompasses a vast collection of movies.
+With these functionalities and potential expansions, the application aims to provide a user-friendly platform for movie enthusiasts, offering a seamless experience to explore, search for, and discover films from various genres and release dates
